@@ -1,0 +1,457 @@
+@font-face {
+  font-family: 'GangwonEdu_OTFBoldA';
+  src: url('https://fastly.jsdelivr.net/gh/projectnoonnu/noonfonts_2201-2@1.0/GangwonEdu_OTFBoldA.woff') format('woff');
+  font-weight: normal;
+  font-style: normal;
+}
+@font-face {
+  font-family: 'Pretendard-Regular';
+  src: url('https://fastly.jsdelivr.net/gh/Project-Noonnu/noonfonts_2107@1.1/Pretendard-Regular.woff') format('woff');
+  font-weight: 400;
+  font-style: normal;
+}
+
+* {
+  margin: 0;
+  padding: 0;
+}
+
+#header {
+  font-family: 'GangwonEdu_OTFBoldA';
+  position: relative;
+}
+
+.intro_bg {
+  width: 100%;
+  height: 100vh;
+  background-color: #fff6;
+  backdrop-filter: blur(10px);
+  position: absolute;
+  z-index: 1;
+  top: 0;
+  left: 0;
+}
+
+
+.intro_bg > h1 {
+  text-align: center;
+  position: relative;
+  top: 50%;
+  left: 50%;
+  transform: translate(-50%,-50%);
+  line-height: 4rem;
+}
+
+.intro1 {
+  z-index: 3;
+}
+
+.intro2 {
+  z-index: 2;
+}
+
+section {
+  width: 100%;
+  height: 100vh;
+}
+
+#section > .part {
+  float: left;
+}
+
+.part1 {
+  width: 30%;
+  height: 100%;
+}
+
+.mobile {
+  width: 100%;
+  height: 80%;
+  background-color: #FFE6D2;
+  position: relative;
+  overflow: hidden;
+}
+
+.mobile_box {
+  width: 100%;
+  height: 100%;
+  background-color: #fff6;
+  position: absolute;
+  bottom: 100%;
+  box-sizing: border-box;
+  transition: all 1s;
+}
+
+.mobile:hover .mobile_box {
+  bottom: 0;
+}
+
+.m_box {
+  position: relative;
+  top: 50%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+}
+
+.mobile_box .m_box > p {
+  font-weight: bold;
+  line-height: 11em;
+  text-align: center;
+}
+
+.mobile_box .m_box > a {
+  display: block;
+  width: 80%;
+  height: 80%;
+  margin: 0 auto;
+}
+
+.mobile_box .m_box > a > img {
+  width: 100%;
+}
+
+
+.d1 {
+  width: 100%;
+  height: 15%;
+  background-color: #FAD2A5;
+}
+
+.d2 {
+  width: 100%;
+  height: 15%;
+  background-color: #F5A04B;
+}
+
+.d13 {
+  width: 100%;
+  height: 70%;
+  background-color: #FFE6D2;
+}
+
+.none3 {
+  width: 100%;
+  height: 20%;
+  background-color: #FFA1A1;
+  position: relative;
+}
+
+.none3_box {
+  width: 100%;
+  height: 100%;
+  background-color: #fff6;
+  position: absolute;
+  right: 100%;
+  box-sizing: border-box;
+  transition: all 1s;
+}
+
+.none3_box > p {
+  font-weight: bold;
+  line-height: 11em;
+  text-align: right;
+  margin: 10px;
+}
+
+.none3:hover .none3_box {
+  right: 0;
+}
+
+
+.part2 {
+  width: 40%;
+  height: 100%;
+}
+
+.none1 {
+  width: 100%;
+  height: 20%;
+  background-color: #FFA1A1;
+  position: relative;
+  overflow: hidden;
+}
+
+.none1_box {
+  width: 100%;
+  height: 100%;
+  background-color: #fff6;
+  position: absolute;
+  box-sizing: border-box;
+  left: 100%;
+  transition: all 1s;
+}
+
+.none1:hover .none1_box {
+  left: 0;
+}
+
+.none1_box > p {
+  font-weight: bold;
+  line-height: 11em;
+  text-align: left;
+  margin: 10px;
+}
+
+.me {
+  width: 100%;
+  height: 50%;
+  font-family: 'GangwonEdu_OTFBoldA';
+}
+
+.d3 {
+  width: 40%;
+  height: 100%;
+  position: relative;
+  background-color: #FAD2A5;
+  overflow: hidden;
+}
+
+.d3_box {
+  width: 100%;
+  height: 100%;
+  background-color: #fff6;
+  position: absolute;
+  top: 100%;
+  transition: all 1s;
+}
+
+.d3:hover .d3_box {
+  top: 0;
+}
+
+.d3_box .d3_p > p {
+  text-align: left;
+}
+
+.left {
+  width: 60%;
+  height: 100%;
+}
+
+.me > div {
+  float: left;
+}
+
+.d4 {
+  width: 100%;
+  height: 50%;
+  background-color: #FFE6D2;
+  position: relative;
+}
+
+.d4_box {
+  width: 100%;
+  height: 100%;
+  background-color: #fff6;
+  position: absolute;
+  left: 100%;
+  transition: all 1s;
+}
+
+.d4_box .d4_p > p {
+  text-align: left;
+}
+
+.d4:hover .d4_box {
+  left: 0;
+}
+
+.d5 {
+  width: 100%;
+  height: 50%;
+  background-color: #F5A04B;
+  position: relative;
+}
+
+.d5_box {
+  width: 100%;
+  height: 100%;
+  background-color: #fff6;
+  position: absolute;
+  left: 100%;
+  transition: all 1s;
+}
+
+.d5_box .d5_p > p {
+  text-align: left;
+}
+
+.d5:hover .d5_box {
+  left: 0;
+}
+
+.pc_web {
+  width: 100%;
+  height: 30%;
+  position: relative;
+  overflow: hidden;
+}
+
+.pc_web > div {
+  float: left;
+}
+
+.pc_box {
+  width: 100%;
+  height: 100%;
+  background-color: #fff6;
+  position: absolute;
+  left: 100%;
+  transition: all 1s;
+}
+
+.pc_web:hover .pc_box {
+  left: 0;
+}
+
+.t_box {
+  margin: 10px;
+  position: relative;
+  top: 50%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+}
+
+.t_box > p {
+  font-size: 1em;
+  text-align: center;
+  margin: 10px;
+  font-weight: bold;
+}
+
+.t_box > a {
+  display: block;
+  width: 50%;
+  height: 50%;
+  margin: 50px auto;
+}
+
+.t_box > a > img {
+  width: 100%;
+}
+
+.d6 {
+  width: 20%;
+  height: 100%;
+  background-color: #20375C;
+}
+
+.d7 {
+  width: 80%;
+  height: 100%;
+  background-color: #FAF3EB;
+}
+
+.part3 {
+  width: 30%;
+  height: 100%;
+}
+
+.yujeans {
+  width: 100%;
+  height: 70%;
+  position: relative;
+  overflow: hidden;
+}
+
+.yujeans_box {
+  width: 100%;
+  height: 100%;
+  background-color: #fff6;
+  position: absolute;
+  top: 100%;
+  box-sizing: border-box;
+  transition: all 1s;
+}
+
+.yujeans:hover .yujeans_box {
+  top: 0;
+}
+
+.p_box {
+  margin: 10px;
+  position: relative;
+  top: 50%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+}
+
+.p_box > p {
+  font-size: 1em;
+  text-align: center;
+  margin: 10px;
+  font-weight: bold;
+}
+
+.p_box > a {
+  display: block;
+  width: 50%;
+  height: 50%;
+  margin: 50px auto;
+}
+
+.p_box > a > img {
+  width: 100%;
+}
+
+.d8 {
+  width: 100%;
+  height: 55%;
+  background-color: #E4E6FF;
+}
+
+.d9 {
+  width: 100%;
+  height: 35%;
+  background-color: #80AED4;
+}
+
+.d10 {
+  width: 100%;
+  height: 10%;
+  background-color: #68757B;
+}
+
+.none2 {
+  width: 100%;
+  height: 30%;
+  position: relative;
+  overflow: hidden;
+}
+
+.d11 {
+  width: 55%;
+  height: 100%;
+  background-color: #9F1922;
+}
+
+.d12 {
+  width: 45%;
+  height: 100%;
+  background-color: #E6AD00;
+}
+
+.none2 > div {
+  float: left;
+}
+
+.none2_box {
+  width: 100%;
+  height: 100%;
+  background-color: #fff6;
+  position: absolute;
+  box-sizing: border-box;
+  left: 100%;
+  transition: all 1s;
+}
+
+.none2:hover .none2_box {
+  left: 0;
+}
+
+.none2_box > p {
+  font-weight: bold;
+  line-height: 11em;
+  text-align: left;
+  margin: 10px;
+}
